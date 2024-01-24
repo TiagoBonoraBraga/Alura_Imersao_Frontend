@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="./src/styles/sidebar.css">
     <script src="https://kit.fontawesome.com/5cb75cbbc8.js" crossorigin="anonymous"></script>
 </head>
@@ -15,30 +16,30 @@
     <div class="sidebar">
         <nav class="sidebar__navigation">
             <div class="logo">
-                <a href="#">
-                    <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                <a href="">
+                    <img src="./assets/icons/logo-spotify.png" alt="Logo" />
                 </a>
-            </div>           
-                <ul>
-                    <li>
-                        <a href="#">
-                            <span class="fa-solid fa-house"></span>
-                            <span>Inicio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <span class="fa fa-search"></span>
-                            <span>Busca</span>
-                        </a>
-                    </li>
-                </ul>            
+            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
         <div class="library">
             <div class="library__content">
                 <button class="library__button">
                     <span class="fa fas fa-book"></span>
-                    <span>Sua Biblioteca</span>
+                    <span>Sua biblioteca</span>
                 </button>
                 <span class="fa fa-plus"></span>
             </div>
@@ -52,7 +53,7 @@
                 </div>
             </section>
             <div class="cookies">
-                <a href="#">Cookies</a>
+                <a href="">Cookies</a>
             </div>
             <div class="languages">
                 <button class="languages__button">
@@ -63,27 +64,39 @@
         </div>
     </div>
     <main>
-        <div class="main_container">
+        <div class="main-container">
             <nav class="header__navigation">
                 <div class="navigation">
-                    <button class="arrow_left">
-                        <img src="./assets/icons/small-left.png" alt="seta para esquerda">
+                    <button class="arrow-left">
+                        <img src="./assets/icons/small-left.png" alt="Seta esquerda">
                     </button>
-                    <button class="arrow_left">
-                        <img src="./assets/icons/small-right.png" alt="seta para direita">
+                    <button class="arrow-right">
+                        <img src="./assets/icons/small-right.png" alt="Seta direita">
                     </button>
-                    <div class="header_search">
-                        <img src="/assets/icons/search.png" alt="">
-                        <input id="search_input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
-                    </div>
-                    <div>
-                        <button class="subscribe">Inscreva-se</button>
-                        <button class="login">Entrar</button>
-                    </div>
+                </div>
+                <div class="header__search">
+                    <img src="./assets/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
+                </div>
+                <div class="header__login">
+                    <button class="subscribe">Inscreva-se</button>
+                    <button class="login">Entrar</button>
                 </div>
             </nav>
         </div>
     </main>
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
 </body>
 
 </html>

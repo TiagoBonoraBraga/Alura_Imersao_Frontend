@@ -1,4 +1,11 @@
 :root {
-    /* font*/
+    /* Fonts */
     --font--dm--sans: "DM Sans", sans-serif;
+    /* Colors */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,0,0.7);
+    --bg-search: #242424;
+    --font-search-input: #ffffff;
+    --font-subscribe-color: #a7a7a7;
+    --font-login-color: #000000;
 }
